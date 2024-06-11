@@ -30,3 +30,14 @@ const fTweaks17PresetData = {
 }
 
 addPresetData(fTweaks17PresetData);
+
+const wildlanderVanillaPresetData = {
+  id : 3,
+  name : "Wildlander Vanilla",
+  perks : 3,
+  races : 0,
+  gameMechanics : 2,
+  blessings: 1
+}
+
+addPresetData(wildlanderVanillaPresetData);

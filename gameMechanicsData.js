@@ -110,3 +110,13 @@ fTweaks17GameMechanicsData.leveling = {
 };
 
 addGameMechanicsData(fTweaks17GameMechanicsData);
+
+const wildlanderGameMechanicsData = deepmerge({},requiem402GameMechanicsData);
+
+wildlanderGameMechanicsData.id = 2;
+wildlanderGameMechanicsData.name = "Wildlander Vanilla";
+
+//Wildlander starts the character with 6 perks
+wildlanderGameMechanicsData.initialPerks = 6;
+
+addGameMechanicsData(wildlanderGameMechanicsData);

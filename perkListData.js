@@ -1139,3 +1139,18 @@ fTweaks17PerkData.perks[182] = {name : "Elven<br>Smithing", skill : 14, skillReq
  fTweaks17PerkData.perks[186].preReqs = [-231,-185,-184];
 
 addPerkData(fTweaks17PerkData);
+
+/*
+*
+*
+* Wildlander Vanilla
+*
+*/
+const wildlanderVanillaPerkData = deepmerge({},requiem402WithFozarsPerkData);
+wildlanderVanillaPerkData.name = "Wildlander Vanilla";
+wildlanderVanillaPerkData.id = 3;
+
+//Wildlander removes the Morrowind Smithing prerequisite for Orcish Smithing
+wildlanderVanillaPerkData.perks[185].preReqs = [184];
+
+addPerkData(wildlanderVanillaPerkData);
