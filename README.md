@@ -1,4 +1,4 @@
 # Wildlander Planner
 A character planner for Wildlander.
 
-Under development, not currently useable.
+Create an issue or pull request to make changes.
