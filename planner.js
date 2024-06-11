@@ -38,12 +38,12 @@ function parsePresetFromURL(){
   if(params.has("p")){
     let presetNum = Number(params.get("p"));
     if(isNaN(presetNum) || presetNum < 0 || presetNum > presetList.length){
-      presetNum = 0;
+      presetNum = 3;
     }
     return presetNum;
   }
   else {
-    return 0;
+    return 3;
   }
   
 }
